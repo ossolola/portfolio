@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Oluwasijibomi Solola — Automation Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#top">siji.dev</a>
+  <ul class="nav-links">
+    <li><a href="#n8n">n8n Projects</a></li>
+    <li><a href="#uipath">UiPath</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+      <span class="theme-toggle-icon moon-icon">🌙</span>
+      <span class="theme-toggle-icon sun-icon">☀️</span>
+    </button>
+    <a class="nav-cta" href="#contact">Get in Touch</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div id="top" class="hero-wrap">
+  <div class="hero-bg"></div>
+  <div class="hero-blob"></div>
+  <div class="container" style="width:100%">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">Automation Engineer &amp; Software Developer</div>
+      <h1 class="hero-name">Oluwasijibomi<br><span class="hero-name-accent">Solola</span></h1>
+      <p class="hero-sub">Building the workflows that work while you sleep.</p>
+      <p class="hero-desc">Software Engineer at Stanbic IBTC, Lagos. I design and deploy intelligent automation systems using n8n AI workflows and UiPath RPA, turning complex, repetitive processes into elegant, autonomous pipelines.</p>
+
+      <div class="hero-stack">
+        <span class="badge teal">n8n</span>
+        <span class="badge amber">UiPath RPA</span>
+        <span class="badge">ASP.NET Core</span>
+        <span class="badge">C#</span>
+        <span class="badge">Google Gemini</span>
+        <span class="badge">GPT-4o</span>
+        <span class="badge">Supabase</span>
+        <span class="badge">JavaScript</span>
+      </div>
+
+      <div class="hero-actions">
+        <a class="btn-primary" href="#n8n">View Projects →</a>
+        <a class="btn-amber" href="https://linkedin.com/in/oluwasijibomisolola" target="_blank">LinkedIn ↗</a>
+        <a class="btn-ghost" href="https://github.com/ossolola" target="_blank">GitHub ↗</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- METRICS -->
+<div class="metrics-strip">
+  <div class="container">
+    <div class="metrics-grid">
+      <div class="metric">
+        <div class="metric-num">5<span>+</span></div>
+        <div class="metric-label">n8n AI Workflows Built</div>
+      </div>
+      <div class="metric">
+        <div class="metric-num">7</div>
+        <div class="metric-label">Parallel AI Analysis Modules</div>
+      </div>
+      <div class="metric">
+        <div class="metric-num">4</div>
+        <div class="metric-label">Document-Sync Pipelines (NexaraAI)</div>
+      </div>
+      <div class="metric">
+        <div class="metric-num">6<span>+</span></div>
+        <div class="metric-label">Email Categories Auto-Classified</div>
+      </div>
+      <div class="metric">
+        <div class="metric-num">3<span>min</span></div>
+        <div class="metric-label">Speech Lab Report Delivery</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- N8N PROJECTS -->
+<section id="n8n">
+  <div class="container">
+    <div class="section-label">AI Workflow Automation</div>
+    <h2 class="section-heading">n8n Projects</h2>
+    <p class="section-sub">AI-powered automation workflows connecting APIs, LLMs, and business tools into end-to-end autonomous systems.</p>
+
+    <div class="projects-grid stagger">
+
+      <!-- SPEECH LAB PRO - Flagship Wide Card -->
+      <div class="pcard wide flagship reveal">
+        <div style="display:flex;flex-direction:column;gap:1rem;">
+          <div class="card-header">
+            <div class="card-icon icon-teal">🎤</div>
+            <span class="card-pill pill-teal">Flagship · n8n · SaaS</span>
+          </div>
+          <div class="card-title" style="font-size:1.4rem;">Speech Lab Pro</div>
+          <div class="card-desc">
+            An AI-powered public speaking performance analyser built as a white-label SaaS platform. Accepts a 2 to 5 minute audio or video recording, transcribes it using Google Gemini 2.5 Flash, then runs it through 7 parallel AI analysis modules scoring the speaker across Filler Words, Speech Pace, Tone Variation, Energy Level, Clarity, Confidence, and Emotional Modulation. Each dimension gets a formula-backed score out of 100, feeding into a weighted composite score and one of 5 performance tiers from Foundational to Elite.
+            <br><br>
+            A 12-drill recommendation engine selects training exercises based on the speaker's specific weak spots, assembles a 7-day personalised training plan, and GPT-4o writes a coaching narrative addressed to the speaker by name. The full report is generated as a branded PDF and delivered to their inbox within 3 minutes.
+          </div>
+          <div class="pipeline-row">
+            <span class="pipe-node">Audio Upload</span>
+            <span class="pipe-arrow">→</span>
+            <span class="pipe-node">Gemini 2.5 Flash</span>
+            <span class="pipe-arrow">→</span>
+            <span class="pipe-node">7 AI Modules</span>
+            <span class="pipe-arrow">→</span>
+            <span class="pipe-node">GPT-4o Narrative</span>
+            <span class="pipe-arrow">→</span>
+            <span class="pipe-node">PDF Report</span>
+            <span class="pipe-arrow">→</span>
+            <span class="pipe-node">Gmail Delivery</span>
+          </div>
+          <div class="card-chips">
+            <span class="chip">n8n</span>
+            <span class="chip">Gemini 2.5 Flash</span>
+            <span class="chip">GPT-4o</span>
+            <span class="chip">Supabase Storage</span>
+            <span class="chip">Google Docs/Drive</span>
+            <span class="chip">Gmail</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Netlify</span>
+            <span class="chip">ngrok</span>
+          </div>
+          <div class="card-actions">
+            <a class="live-link primary" href="https://wondrous-tapioca-52bcd3.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <span class="live-dot"></span> Try Speech Lab Pro
+            </a>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:1.5rem;">
+          <div class="flagship-stats">
+            <div class="fstat">
+              <div class="fstat-num">7</div>
+              <div class="fstat-label">Parallel AI scoring modules per submission</div>
+            </div>
+            <div class="fstat">
+              <div class="fstat-num">5</div>
+              <div class="fstat-label">Performance tiers from Foundational to Elite</div>
+            </div>
+            <div class="fstat">
+              <div class="fstat-num">12</div>
+              <div class="fstat-label">Drill types in the recommendation engine</div>
+            </div>
+            <div class="fstat">
+              <div class="fstat-num">&lt;3min</div>
+              <div class="fstat-label">End-to-end report delivery time</div>
+            </div>
+          </div>
+          <div style="padding:1.25rem;background:var(--bg2);border:1px solid var(--border);border-radius:10px;font-size:13px;color:var(--text2);font-weight:300;line-height:1.8;transition:background 0.35s;">
+            <strong style="color:var(--amber);font-weight:600;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;font-family:'DM Mono',monospace;">Built For</strong><br>
+            Speaking coaches, event organisers, corporate L&amp;D teams, media houses, and public speaking platforms across Africa and beyond. Live admin dashboard with real-time submission tracking, speaker leaderboard, and pipeline health alerts.
+          </div>
+        </div>
+      </div>
+
+      <!-- NexaraAI -->
+      <div class="pcard reveal">
+        <div class="card-header">
+          <div class="card-icon icon-teal">🧠</div>
+          <span class="card-pill pill-teal">n8n · RAG · Slack</span>
+        </div>
+        <div class="card-title">NexaraAI: Internal RAG-Based AI Assistant</div>
+        <div class="card-desc">Slack-based AI assistant letting employees query internal HR, onboarding, and policy documentation instead of manual lookup. A 4-pipeline n8n system keeps the Supabase vector store automatically synced with source documents in Google Drive, using Gemini embeddings, Cohere reranking, and a GRASP-framework prompt to ensure grounded, citation-backed answers.</div>
+        <div class="card-chips">
+          <span class="chip">Supabase + pgvector</span>
+          <span class="chip">Google Gemini</span>
+          <span class="chip">Cohere Rerank</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">Slack API</span>
+          <span class="chip">Google Drive API</span>
+        </div>
+        <div class="card-impact">24/7 self-serve employee support with zero new tooling overhead</div>
+      </div>
+
+      <!-- EnquireIQ -->
+      <div class="pcard amber-hover reveal">
+        <div class="card-header">
+          <div class="card-icon icon-amber">🎫</div>
+          <span class="card-pill pill-amber">n8n · Hackathon</span>
+        </div>
+        <div class="card-title">EnquireIQ: AI-Powered Customer Enquiry &amp; Support Ticket Automation</div>
+        <div class="card-desc">Captures customer enquiries from web forms and email, uses a Claude AI Agent to classify, prioritise, and analyse sentiment, then auto-routes tickets to the right team. Tracks SLA compliance on a live Airtable dashboard, with Gmail and Slack alerts notifying teams the instant a ticket is created.</div>
+        <div class="card-chips">
+          <span class="chip">Claude AI (Anthropic)</span>
+          <span class="chip">Airtable</span>
+          <span class="chip">Tally</span>
+          <span class="chip">Gmail</span>
+          <span class="chip">Slack</span>
+        </div>
+        <div class="card-impact">Automated triage, routing, and SLA tracking from a single workflow</div>
+      </div>
+
+      <!-- AI Email Writing Assistant -->
+      <div class="pcard amber-hover reveal">
+        <div class="card-header">
+          <div class="card-icon icon-amber">✉️</div>
+          <span class="card-pill pill-amber">n8n · LLM</span>
+        </div>
+        <div class="card-title">AI Email Writing Assistant</div>
+        <div class="card-desc">Context-aware email drafting workflow triggered via webhook. Takes intent input, generates professional email copy using an LLM, and delivers formatted output ready for immediate send. Piloted at Donova Energy solar automation project.</div>
+        <div class="card-chips">
+          <span class="chip">Webhook</span>
+          <span class="chip">OpenAI</span>
+          <span class="chip">Gmail</span>
+          <span class="chip">Template Engine</span>
+        </div>
+        <div class="card-impact">Reduces email drafting time by up to 80% per message</div>
+      </div>
+
+      <!-- MediCarePlus -->
+      <div class="pcard reveal">
+        <div class="card-header">
+          <div class="card-icon icon-teal">🏥</div>
+          <span class="card-pill pill-teal">n8n · Healthcare</span>
+        </div>
+        <div class="card-title">MediCarePlus Patient Onboarding Automation</div>
+        <div class="card-desc">End-to-end patient intake workflow for a healthcare operator. Triggers on form submission, validates patient data, creates records, sends personalised welcome comms, and routes urgent cases for priority review without manual intervention.</div>
+        <div class="card-chips">
+          <span class="chip">Form Trigger</span>
+          <span class="chip">Data Validation</span>
+          <span class="chip">Gmail</span>
+          <span class="chip">Slack</span>
+          <span class="chip">Airtable</span>
+        </div>
+        <div class="card-impact">Zero-touch patient onboarding from submission to record creation</div>
+      </div>
+
+      <!-- Smart Study Link Organizer -->
+      <div class="pcard amber-hover reveal">
+        <div class="card-header">
+          <div class="card-icon icon-amber">🔗</div>
+          <span class="card-pill pill-both">n8n · In Progress</span>
+        </div>
+        <div class="card-title">Smart Study Link Organizer</div>
+        <div class="card-desc">Personal productivity tool that captures saved links via a web form, routes them through an AI categorisation and summarisation engine, stores structured results in Google Sheets, and delivers a formatted Gmail digest for daily review.</div>
+        <div class="card-chips">
+          <span class="chip">Web Form</span>
+          <span class="chip">AI Categorisation</span>
+          <span class="chip">Google Sheets</span>
+          <span class="chip">Gmail Digest</span>
+        </div>
+        <div class="card-impact">Turning bookmark chaos into a curated knowledge system</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- UIPATH SECTION -->
+<div class="uipath-section" id="uipath">
+  <section>
+    <div class="container">
+      <div class="section-label amber">RPA Automation</div>
+      <h2 class="section-heading">UiPath Projects</h2>
+      <p class="section-sub">Building enterprise-grade RPA workflows that combine UiPath orchestration with AI classification to automate high-volume operational processes.</p>
+
+      <div class="uipath-grid stagger" style="grid-template-columns: 1fr;">
+
+        <!-- AI Email Automation - In Progress -->
+        <div class="ucard reveal">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:1rem;">
+            <div class="card-icon icon-amber" style="width:46px;height:46px;">📧</div>
+            <span class="card-pill pill-both">UiPath · In Progress</span>
+          </div>
+          <div class="card-title" style="font-size:1.25rem;margin-bottom:0.75rem;">AI-Powered Customer Service Email Automation</div>
+          <div class="card-desc">Building an end-to-end RPA workflow in UiPath that automates triage of customer service emails for a banking environment, reducing manual handling of incoming enquiries. The automation ingests emails via IMAP, filters out noise such as auto-replies and no-reply senders, and uses the OpenAI API (GPT-4o-mini) to classify each email into business categories including Complaint, Pricing, Onboarding, Refund, Technical Support, and General Enquiry.
+          <br><br>
+          A grouping and response system batches categorised emails and will generate AI-drafted, empathetic response templates per category to speed up agent reply turnaround. Automated agent assignment and notification logic routes each email category to the responsible team via email and Microsoft Teams alerts. The build also includes UiPath Cloud Orchestrator infrastructure: unattended robot runtimes, Orchestrator Assets for secure credential storage, queue-based transaction tracking, and scheduled triggers for autonomous execution, alongside REST API integration with OpenAI for JSON parsing, HTTP request configuration, and authentication across mail and AI services.</div>
+            <div class="card-chips" style="margin-top:1rem;">
+              <span class="chip">UiPath Studio</span>
+              <span class="chip">Cloud Orchestrator</span>
+              <span class="chip">IMAP</span>
+              <span class="chip">OpenAI (GPT-4o-mini)</span>
+              <span class="chip">Microsoft Teams</span>
+              <span class="chip">Queue Management</span>
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<div class="skills-section" id="skills">
+  <section>
+    <div class="container">
+      <div class="section-label">Technical Expertise</div>
+      <h2 class="section-heading">Skills &amp; Stack</h2>
+      <div class="skills-grid stagger">
+        <div class="skill-group reveal">
+          <h3>AI Automation</h3>
+          <ul class="skill-list">
+            <li>n8n workflow design</li>
+            <li>LLM integration (Gemini, GPT-4o)</li>
+            <li>RAG pipelines</li>
+            <li>Multi-agent systems</li>
+            <li>Webhook and API orchestration</li>
+            <li>AI prompt engineering</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="amber">RPA (UiPath)</h3>
+          <ul class="skill-list">
+            <li class="amber">UiPath Studio</li>
+            <li class="amber">Orchestrator deployment</li>
+            <li class="amber">Web and desktop automation</li>
+            <li class="amber">Data scraping and extraction</li>
+            <li class="amber">Excel process automation</li>
+            <li class="amber">Bot scheduling and monitoring</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Software Engineering</h3>
+          <ul class="skill-list">
+            <li>ASP.NET Core / C#</li>
+            <li>JavaScript / HTML / CSS</li>
+            <li>REST API development</li>
+            <li>SQL and database design</li>
+            <li>Supabase / PostgreSQL</li>
+            <li>Git / GitHub</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Integrations and Cloud</h3>
+          <ul class="skill-list">
+            <li>Google Workspace APIs</li>
+            <li>Google Cloud Platform</li>
+            <li>Gmail / Sheets / Drive / Docs</li>
+            <li>Slack / Notion / Telegram</li>
+            <li>Docker and ngrok</li>
+            <!-- <li>Microsoft 365 / Power Automate</li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="divider"></div>
+
+<!-- ABOUT / TIMELINE -->
+<section id="about">
+  <div class="container">
+    <div class="section-label">Background</div>
+    <h2 class="section-heading">Experience &amp; Journey</h2>
+    <p class="section-sub">From mathematics to modern automation, building at the intersection of software engineering and AI.</p>
+
+    <div class="timeline">
+      <div class="titem reveal">
+        <div class="tdate">2023 — Present</div>
+        <div class="ttitle">Software Engineer &amp; Automation Engineer · Stanbic IBTC, Lagos</div>
+        <div class="tsub">Building internal software solutions and workflow tools across the organisation, and currently developing a UiPath RPA workflow for AI-powered customer service email automation.</div>
+      </div>
+      <!-- <div class="titem reveal">
+        <div class="tdate">2024 — Present</div>
+        <div class="ttitle">Revenue Manager (Remote) · Shaking Tables with AA</div>
+        <div class="tsub">Sponsorship relations and revenue growth strategy for an entertainment brand. Applying automation thinking to revenue pipeline management and partner outreach.</div>
+      </div> -->
+      <div class="titem reveal">
+        <div class="tdate">2026</div>
+        <div class="ttitle">AI Automation Engineering Certification · 10Alytics Business</div>
+        <div class="tsub">Intensive programme covering n8n integrations across Google Gemini, OpenAI, Google Workspace, Slack, Notion, Telegram, and databases. Completed capstone automation projects including Speech Lab Pro, NexaraAI, and EnquireIQ.</div>
+      </div>
+      <div class="titem reveal">
+        <div class="tdate">2022 — 2023</div>
+        <div class="ttitle">Software Engineer Intern · Precise Financial Systems</div>
+        <div class="tsub">Built and maintained financial software features. Developed proficiency in ASP.NET Core and enterprise application architecture within a fintech environment.</div>
+      </div>
+      <div class="titem reveal">
+        <div class="tdate">Earlier</div>
+        <div class="ttitle">B.Sc. Mathematics</div>
+        <div class="tsub">Strong analytical foundation underpinning system design, algorithm thinking, and data-driven automation strategy.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="section-label" style="justify-content:center;">Let's Work Together</div>
+    <h2 class="section-heading" style="text-align:center;">Open to Opportunities</h2>
+    <p class="section-sub" style="text-align:center;margin-left:auto;margin-right:auto;">Whether you need intelligent automation, RPA workflows, or custom software, I would love to hear about your challenge.</p>
+    <div class="contact-links reveal">
+      <a class="contact-link cta" href="mailto:oluwasijibomisolola@gmail.com">✉ Email Me</a>
+      <a class="contact-link" href="https://linkedin.com/in/oluwasijibomisolola" target="_blank">LinkedIn ↗</a>
+      <a class="contact-link" href="https://github.com/ossolola" target="_blank">GitHub ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <p>© 2026 Oluwasijibomi Solola · Lagos, Nigeria</p>
+      <p>Built with precision · Powered by automation</p>
+    </div>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+
+</body>
+</html>
